@@ -1,0 +1,92 @@
+
+
+On 21 May 2014, at 15:46, Shuo Zhang <ssz6@georgetown.edu> wrote:
+
+> Dear Prof.Xu,
+> Thank you again for your suggested resources on tone modeling in our previous communications. In any case, we are trying some machine learning algorithms on the Mandarin tone data we have, but probably because of the bad quality of our recorded data (it was recorded by someone else and I obtained them), we couldn't really get a good result comparing to Gauthier et al (2007): "Learning phonetic categories by tracking movements". 
+> 
+> We were wondering if you'd be willing to share your tone contour data with us, so that we can try to at least replicate the results with the data on SOM. Or, if sharing the original audio recording is not possible, we wonder if you can share the tone contour data files (maybe in csv file format) with us. It'll greatly help validating our approach since with our previous data, nothing works well to cluster/classify tones (including SOM). 
+> 
+> As I mentioned last time, this is only the first step of clustering tones in a larger project before we apply some Bayesian models of speech perception to tone. We really appreciate your help. 
+> 
+> Thank you so much,
+> Shuo
+> 
+> 
+> On Apr 8, 2014, at 5:13 PM, Xu, Yi <yi.xu@ucl.ac.uk> wrote:
+> 
+>> Dear Shuo,
+>> 
+>> We have two publicly released versions of qTA-based tools for modelling purposes: http://www.phon.ucl.ac.uk/home/yi/PENTAtrainers/
+>> 
+>> With PENTAtrainer1 you can apply the exhaustive local search strategy used in Prom-on et al. (2009). With PENTAtrainer2, you can apply the global stochastic search reported in Xu & Prom-on (2014): http://www.phon.ucl.ac.uk/home/yi/yispapers/Xu_Prom-on_SpCm2014.pdf
+>> 
+>> The web pages for both trainers provide detailed instructions. But if you still have questions after following the instructions, please do not hesitate to let me know.
+>> 
+>> Regarding tone perception modeling, you might be interested in taking a look at this paper: http://www.phon.ucl.ac.uk/home/yi/yispapers/GauthierEtal.pdf
+>> 
+>> 
+>> Best wishes,
+>> 
+>> Yi
+>> 
+>> 
+>> On 8 Apr 2014, at 21:48, Shuo Zhang <ssz6@georgetown.edu> wrote:
+>> 
+>>> Dear Professor Xu,
+>>> This is Zhang Shuo, a Phd student at Georgetown Linguistics (Lisa Zsiga is my advisor, and I also used to be a visiting student at phonetics lab, CASS in Beijing). 
+>>> 
+>>> I am currently working on Bayesian inference modeling of Mandarin tone perception (I'm working with a post-doc here from Johns Hopkins,Dr.Chris Kirov). As a preliminary step, we're trying to implement a Bayesian model (categorical perception/perceptual magnet by Naomi Feldman et al), and to try it on tone curves. We thought that it would be nice to be able to represent tone curves by the parameters proposed in qTA. We read this paper of yours:
+>>> 
+>>> Prom-on, S., Xu, Y. and Thipakorn, B. (2009) Modeling tone and intonation in Mandarin and English as a process of target approximation. Journal of the Acoustical Society of America 125: 405-424. 
+>>> 
+>>> In any case, we are wondering if you have any code implemented based on this model, that we can use. As I mentioned, our goal is to reduce each tone contour curve to a small number of parameter representations (and possibly to include conditional probabilities given tone context). I would appreciate any suggestions/code you have. 
+>>> 
+>>> Thank you,
+>>> Shuo
+>> 
+>> ------------------------------
+>> Yi Xu, Ph.D.
+>> Department of Speech, Hearing and Phonetic Sciences
+>> University College London
+>> Chandler House
+>> 2 Wakefield Street
+>> London WC1N 1PF
+>> ＵK
+>> 
+>> Tel:  020 7679 4082 (internal: 24082)
+>> Fax: 020 7679 4238
+>> email: yi.xu@ucl.ac.uk
+>> http://www.phon.ucl.ac.uk/home/yi/
+>> ------------------------------
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+> 
+> 
+
+------------------------------
+Yi Xu, Ph.D.
+Department of Speech, Hearing and Phonetic Sciences
+University College London
+Chandler House
+2 Wakefield Street
+London WC1N 1PF
+ＵK
+
+Tel:  020 7679 4082 (internal: 24082)
+Fax: 020 7679 4238
+email: yi.xu@ucl.ac.uk
+http://www.phon.ucl.ac.uk/home/yi/
+------------------------------
+
+
+
+
+
+
+
