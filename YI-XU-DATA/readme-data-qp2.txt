@@ -1,6 +1,6 @@
 #xu_data_qp2
 #original data from Yi Xu
-#testest
+#testest test test
 all files in this directory and subdirectory are created and modified during analysis of Xu's original data files from June 2014. The data is collected in his 1997 paper of contextual variation of tones, and is reused for Gauthier et al. 2007 on the SOM of tone learning (machine). 
 
 in summer 2014 I ran preliminary analysis and machine learning on this data, (including time series data mining), but didn't document how the files were generated. 
